@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/cdcdaa8376.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles.css">
+    <meta charset="UTF-8">
+    <title>Find Your Film</title>
+</head>
+<!--<i class="fa-solid fa-plus"></i>-->
+<!--<i class="fa-solid fa-minus"></i>-->
+<!--<i class="fa-solid fa-magnifying-glass"></i>-->
+
+    <body>
+            <header id="MovieHeader">
+                <div class="HeaderChild">
+                    <h1 class="MovieHighLight"> Recommended Movies </h1>
+                     <i  id="MyMovieList" class="fa-solid fa-list" ></i>
+                    <p id="ListText"> My List </p>
+                </div>
+                <div class="MovieGallery">
+                    <div class=" HighLighted Poster"> <img src="Assets/Aquaman(poster).jpg"></div>
+                    <div class=" HighLighted Poster"> <img src="Assets/Harry(poster).jpg"></div>
+                    <div class=" HighLighted Poster"> <img src="Assets/Spiderman(poster.jpg"></div>
+                    <div class=" HighLighted Poster"> <img src="Assets/LordoftheRings(poster).jpg"></div>
+                </div>
+            </header>
+        <section class="Container">
+          <div class="Wrapper">
+              <div id="searchBlock" class="searchBlock">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                  <input
+                          type="text"
+                          id="TitleInput"
+                          placeholder="Search for a Movie : HarryPotter"
+                  >
+                  <button id="SearchBtn">Search</button>
+              </div>
+
+                  <div id="Movies" class="MovieList">
+                      <div class="IconContainer">
+                          <i class="fa-solid fa-film"></i>
+                          <h2 class="FilmIconText">Search your favourite movies </h2>
+                      </div>
+
+
+                  </div>
+
+          </div>
+        </section>
+            <script src="app.js"></script>
+
+    </body>
+
+</html>
